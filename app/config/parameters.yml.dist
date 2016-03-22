@@ -1,0 +1,12 @@
+# This file is a "template" of what your parameters.yml file should look like
+# Set parameters here that may be different on each deployment target of the app, e.g. development, staging, production.
+# http://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
+parameters:
+    # A secret key that's used to generate certain security-related tokens
+    rabbit_mq_host: 192.168.1.101
+    rabbit_mq_user: iszgosbookru
+    rabbit_mq_password: nah6cie2Ke
+    rabbit_mq_vhost: iszgosbookru
+    rabbit_mq_port: 5672
+    secret: ThisTokenIsNotSoSecretChangeIt
+    path: /home/eugen/Work/project/isz-vagrant/code/isz-filestorage/uploads
